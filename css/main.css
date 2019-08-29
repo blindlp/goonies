@@ -106,7 +106,7 @@ body {
 /* Inicio de crew container */
 
 .related-info-container-crew {
-    height: 400px;
+    height: 600px;
     width: 100%;
     margin: 10px 0;
     
@@ -114,8 +114,8 @@ body {
 
 .related-info-container-crew-more {
     background: hsla(31,15%,50%,.1);
-    height: 400px;
-    width: 50%;
+    height: 600px;
+    width: 40%;
     padding: 10px;
     border-radius: 10px;
 }
@@ -127,13 +127,16 @@ body {
     align-items: center;
 }
 .related-info-container-crew-img {
-
+    padding: 10px;
 }
 
 .related-info-container-crew-img-banner {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    padding: 0 10px;
-   
+}
+
+.related-info-container-crew-add-to {
+    width: 60%;
+    padding: 10px;
+    border-radius: 10px;
 }
