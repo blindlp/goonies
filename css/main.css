@@ -93,7 +93,6 @@ body {
     text-rendering: optimizeLegibility;
 }
 
-
 .related-info-container-information-paragrah {
     padding: 10x;
     margin-right: 5px;
@@ -109,13 +108,14 @@ body {
     height: 600px;
     width: 100%;
     margin: 10px 0;
-    
+    display: flex;
+    flex-direction: row;
 }
 
 .related-info-container-crew-more {
     background: hsla(31,15%,50%,.1);
-    height: 600px;
-    width: 40%;
+    height: 370px;
+    width: 50%;
     padding: 10px;
     border-radius: 10px;
 }
@@ -127,7 +127,11 @@ body {
     align-items: center;
 }
 .related-info-container-crew-img {
-    padding: 10px;
+ 
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   align-items: center;
 }
 
 .related-info-container-crew-img-banner {
@@ -136,7 +140,61 @@ body {
 }
 
 .related-info-container-crew-add-to {
-    width: 60%;
+    margin-left: 1px;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.related-info-container-crew-add-to-img {
+    margin-left: 5px;
+}
+
+.related-info-container-crew-add-to-img-a {
+    display: block;
+    margin-top: 10px;
+    margin-left: 5px;
     padding: 10px;
+    text-decoration: none;
+    background:#f3ce00;
+    border-radius: 5px;
+    color: black;
+    border-color: #D5AB55 #c93 #c93 #D5AB55; 
+    text-align: center;
+}
+
+.related-info-container-crew-add-to-img-a:hover {
+    color: wheat;
+    background: black;
+}
+
+.related-info-container-crew-add-to-data-info{
+    font-size: 12px;
+    margin-left: 15px;
+}
+
+.related-info-container-crew-add-to-data h1 {
+    font-size: 16px;
+    margin-left: 15px;
+    font-style: italic;
+}
+
+.related-info-container-crew-team {
+    background: hsla(31,15%,50%,.1);
+    height: 370px;
+    width: 50%;
+    padding: 10px;
+    margin-left: 10px;
     border-radius: 10px;
 }
+
+.related-info-container-crew-team-table {
+    display: flex;
+    flex-direction: row;
+}
+.related-info-container-crew-team-table td {
+    padding: 10px;
+}
+
+/* Fin  crew container */ 
