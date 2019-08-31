@@ -105,7 +105,7 @@ body {
 /* Inicio de crew container */
 
 .related-info-container-crew {
-    height: 600px;
+    height: 368px;
     width: 100%;
     margin: 10px 0;
     display: flex;
@@ -198,3 +198,81 @@ body {
 }
 
 /* Fin  crew container */ 
+
+/* Inicio Related-comments */
+
+.related-comments {
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.related-comments-post {
+    background: hsla(31,15%,50%,.1);
+    height: 370px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* comments */
+
+.related-comments-post {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.realated-coments-post-comment {
+    display: flex;
+    flex-direction: row;
+}
+
+.Media {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.media-post {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+
+
+}
+
+.media-post-autor {
+    font-size: 12px;
+    margin-left: 50px;
+}
+  
+  .Media-figure {
+   margin: 10px;
+  }
+  
+  .Media-body {
+    flex: 1;
+  }
+  .Media-body,
+  .Media-body :last-child {
+    margin-bottom: 0;
+  }
+  
+  .Media-title {
+    margin: 0 0 .5em;
+  }
+  
+  .Media--center {
+    align-items: center;
+  }
+  
+  .Media--reverse > .Media-figure {
+    order: 1;
+    margin: 0 0 0 1em;
+  }
