@@ -120,12 +120,30 @@ body {
     border-radius: 10px;
 }
 
+.related-info-container-crew-more-img {
+    border: 2px solid transparent;
+}
+
+.related-info-container-crew-more-img:hover {
+    border: 2px solid steelblue;
+}
+
 .related-info-container-crew-header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
+
+.related-info-container-crew-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+
 .related-info-container-crew-img {
  
    display: flex;
@@ -192,9 +210,29 @@ body {
 .related-info-container-crew-team-table {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
-.related-info-container-crew-team-table td {
+
+.related-info-container-crew-team-item {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin-top: 15px;
+}
+
+.related-info-container-crew-name:hover {  
+    color: white;
+    background:black;
+    border-radius: 8px;
+}
+
+.related-info-container-crew-name {
+    color: black;
+    margin-left: 10px;
     padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
 }
 
 /* Fin  crew container */ 
