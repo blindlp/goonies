@@ -202,7 +202,7 @@ body {
 /* Inicio Related-comments */
 
 .related-comments {
-    height: 600px;
+    height: auto;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -210,7 +210,7 @@ body {
 
 .related-comments-post {
     background: hsla(31,15%,50%,.1);
-    height: 370px;
+    height: auto;
     width: 100%;
     padding: 10px;
     border-radius: 10px;
@@ -230,6 +230,7 @@ body {
 .realated-coments-post-comment {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .Media {
@@ -237,7 +238,10 @@ body {
     align-items: flex-start;
     flex-direction: column;
     margin-bottom: 10px;
+    width: 33%;
+    margin: 10px 1px;
 }
+
 
 .media-post {
     display: flex;
@@ -285,6 +289,7 @@ body {
       display: flex;
       align-items: center;
       justify-content: center;
+      margin-top: 15px;
       /* position: fixed; */
       /* bottom: 0; */
   }
