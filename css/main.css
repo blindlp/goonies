@@ -7,7 +7,9 @@ body {
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
     margin: 15px;
-    color: #404040;
+    /* color: #404040; */
+    /* background-color: black; */
+    /* color: white; */
     
 }
 
@@ -358,3 +360,56 @@ body {
   }
 
   /* fin me media post */
+
+  /* modelacion de links  */
+
+ /* post comments */
+
+ .new-post {
+    background: hsla(31,15%,50%,.1);
+    height: auto;
+    width: 100%;
+    /* padding: 10px; */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    /* justify-content: center; */
+    margin-bottom: 5px;
+    border: 2px solid steelblue;
+ }
+
+ .new-post-text-area-header {
+     width: auto;
+     margin: 0 20px;
+ }
+
+ .new-post-text-area-img {
+     height: 175px;
+ }
+
+ .new-post-text-area-commnets {
+     width: 50%;
+     height: auto;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .new-post-done {
+     height: 25px;
+     width: 80px;
+     background:#f3ce00;
+     border-radius: 5px;
+     color: black;
+     border-color: #D5AB55 #c93 #c93 #D5AB55; 
+     text-align: center;
+ }
+
+  .not-active {
+    pointer-events: none; 
+    cursor: default; 
+    text-decoration: none; 
+      color: orangered !important;
+  }
