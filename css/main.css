@@ -389,6 +389,8 @@ body {
  }
 
  .new-post-text-area-commnets {
+     margin-top: 68px;
+     margin-bottom: 15px;
      width: 50%;
      height: auto;
      display: flex;
