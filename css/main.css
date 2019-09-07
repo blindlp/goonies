@@ -3,14 +3,9 @@
 }
 
 body {
-    /* background: #a5c780; */
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
     margin: 15px;
-    /* color: #404040; */
-    /* background-color: black; */
-    /* color: white; */
-    
 }
 
 /* comienba header */
@@ -22,7 +17,6 @@ body {
     background:rgba(147,128,108,.1);;
     align-items: center;
     border-radius: 10px;
-    border: 2px solid steelblue;
 }
 
 .conteiner-header-nav-logo {
@@ -54,7 +48,6 @@ body {
 
 .container-header-nav-links-li a {
     text-decoration: none;
-    /* background: #759653; */
     color: black;
     margin: 0 20px;
 }
@@ -87,8 +80,6 @@ body {
     background:hsla(31,15%,50%,.1);
     text-rendering: optimizeLegibility;
     border-radius: 10px;
-    border: 2px solid steelblue;
-
 }
 
 .related-info-container-information-right {
@@ -96,7 +87,6 @@ body {
     background: hsla(31,15%,50%,.1);
     border-radius: 10px;
     text-rendering: optimizeLegibility;
-    border: 2px solid steelblue;
 }
 
 .related-info-container-information-paragrah {
@@ -127,7 +117,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    border: 2px solid steelblue;
 }
 
 .related-info-container-crew-more-img {
@@ -156,9 +145,6 @@ body {
     text-decoration: none;
     color: black;
 }
-
-
-
 
 
 .related-info-container-crew-img {
@@ -228,7 +214,7 @@ body {
     padding: 10px;
     margin-left: 5px;
     border-radius: 10px;
-    border: 2px solid steelblue;
+    /* border: 2px solid steelblue; */
 }
 
 .related-info-container-crew-team-table {
@@ -287,7 +273,7 @@ body {
     width: 100%;
     display: flex;
     flex-direction: column;
-    border: 2px solid steelblue;
+    /* border: 2px solid steelblue; */
 }
 
 .realated-coments-post-comment {
@@ -354,7 +340,7 @@ body {
       align-items: center;
       justify-content: center;
       margin-top: 5px;
-      border: 2px solid steelblue;
+      /* border: 2px solid steelblue; */
       /* position: fixed; */
       /* bottom: 0; */
   }
@@ -373,10 +359,11 @@ body {
     border-radius: 10px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     /* align-items: center; */
     /* justify-content: center; */
     margin-bottom: 5px;
-    border: 2px solid steelblue;
+    /* border: 2px solid steelblue; */
  }
 
  .new-post-text-area-header {
